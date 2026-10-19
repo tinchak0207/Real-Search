@@ -1,8 +1,15 @@
-# threads-experience
+# Real-Search
 
-一个开源的 Agent Skill：把 Threads 上真实用户的评论区经验，变成**过滤掉广告号**的购买建议。
+这个Skill把“真人的真实选品建议”喂给你的Agent。
 
-不是 SaaS，不是网站。它只提供 **prompt + helper 脚本**，由你自己的 Agent（Claude Code / Codex / ZCode / 其他支持 Skill 的 Agent）来跑完整循环。你自带 LLM 和 Jev 的 API Key。
+你想买洗面奶，去淘宝找了销量最高好评最多的旗舰店下单，结果好评是刷的，用着很烧心。
+你去小红书找攻略，出来的结果更是一大片广告。
+好用的产品都藏在淘宝，但是你分不出是哪一个。
+很多人都不知道，其实Threads有很多真人的好建议，也有很多伪装成真人的广告用户。
+这个Skill用AI把广告用户过滤掉了，然后把Threads上真人推荐的产品喂到你嘴边，
+你可以点进ta的主页看。
+
+你可以用你的Jev Key启动Jev快捷过滤功能，也可以什么都不做，直接接入你的Codex, Claude Code, Workbuddy
 
 ```text
 用户需求
