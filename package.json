@@ -1,0 +1,19 @@
+{
+  "name": "threads-experience",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent Skill: Threads real-user experience search with Jev ad-account filtering",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "intent": "node scripts/llm.mjs intent",
+    "search": "node scripts/threads.mjs search",
+    "replies": "node scripts/threads.mjs replies",
+    "profiles": "node scripts/threads.mjs profiles",
+    "jev": "node scripts/jev.mjs",
+    "synthesize": "node scripts/llm.mjs synthesize"
+  }
+}
