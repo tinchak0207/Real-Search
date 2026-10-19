@@ -1,6 +1,8 @@
 # Real-Search
 
 这个Skill把“真人的真实选品建议”喂给你的Agent。
+<img width="1862" height="1318" alt="image" src="https://github.com/user-attachments/assets/c84b40e3-0e2f-4760-8594-99f492512ddb" />
+
 
 你想买洗面奶，去淘宝找了销量最高好评最多的旗舰店下单，结果好评是刷的，用着很烧心。
 你去小红书找攻略，出来的结果更是一大片广告。
